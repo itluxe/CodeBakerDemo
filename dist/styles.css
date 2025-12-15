@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+header {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin-bottom: 20px;
+}
+h1 {
+    color: #444;
+}
+section {
+    margin-bottom: 30px;
+}
+
+.code-baker-demo-table-container .buttons {
+    margin-bottom: 10px;
+}
+
+.code-baker-demo-table-container .buttons button{
+    margin-right: 10px;
+}
+
+.code-baker-demo-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+.code-baker-demo-table th, .code-baker-demo-table td{
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.code-baker-demo-table td.actions button {
+    margin-right: 10px;
+}
+
+.code-baker-demo-table th{
+    text-align: left;
+}
+
+.code-baker-demo-form-container {
+    width: 50%;
+    /*width: 50%;*/
+    /*height: 50%;*/
+    left:25%;
+    top:25%;
+    display: none;
+    background:#f0f0f0;
+    position: absolute;
+    padding: 20px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+}
+
+.code-baker-demo-form-container .fields {
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+
+.code-baker-demo-form-container .buttons {
+    margin-top: 20px;
+}
+
+
+.code-baker-demo-form-container .field {
+    margin-bottom: 10px;
+}
+
+.code-baker-demo-form-container .field input,
+.code-baker-demo-form-container .field textarea
+{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.code-baker-demo-form-container .field input
+{
+    height: 25px;
+}
+
+.code-baker-demo-form-container .field textarea
+{
+    height: 80px;
+}
+
+.code-baker-demo-form-container .close {
+    margin-top:-20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    color:#444444;
+    padding:5px;
+    margin-right:5px;
+}
+
+.code-baker-demo-form-container h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color:#444444;
+}
+
+.code-baker-demo-form-container.show {
+    display: block;
+}
+
+
